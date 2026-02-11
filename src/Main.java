@@ -19,6 +19,9 @@ public class Main {
                 writer.newLine();
                 lineas++;
             }
+            if (lineas == N){
+                writer.write(lineas + " ");
+            }
 
 
 
