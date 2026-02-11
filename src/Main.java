@@ -15,12 +15,12 @@ public class Main {
             int lineas = 1;
 
             while(lineas < N){
-                writer.write(lineas + " ");
+                writer.write( "Linea: "+ lineas + " ");
                 writer.newLine();
                 lineas++;
             }
             if (lineas == N){
-                writer.write(lineas + " ");
+                writer.write("Linea: " + lineas + " ");
             }
 
 
